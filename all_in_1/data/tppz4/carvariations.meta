@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+     <Item>
+      <modelName>tppz4</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">  <!-- Galaxy Blue -->
+            61
+            141
+            63
+            127
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Black / Black -->
+            0
+            0
+            117
+            1
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Black / Red -->
+            0
+            34
+            10
+            34
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Yellow / DarkSteel -->
+            88
+            3
+            88
+            88
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- White -->
+            112
+            112
+            112
+            112
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Straw Brown -->
+            99
+            107
+            106
+            112
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Bright Green -->
+            53
+            0
+            59
+            55
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>89812_tppz4_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

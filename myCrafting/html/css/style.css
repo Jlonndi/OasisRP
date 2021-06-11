@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+:root {
+    --borderColor: rgba(51, 132, 153, 0.7);
+    --backgroundColorOne: rgba(10, 38, 50, 0.7);
+    --backgroundColorTwo: rgba(9, 21, 24, 0.7);
+    --textColor: rgb(150, 238, 255);;
+}
+
+#inventarBackground {
+    background-color: var(--backgroundColorOne);
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    width: 25vw;
+    height: 60vh;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 2px var(--borderColor);;
+    border-radius: 15px;
+}
+
+#inventarList {
+    overflow: scroll;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-gap: 0;
+}
+
+#inventarListBackground {
+    border-radius: 15px;
+    background-color: var(--backgroundColorTwo);
+    margin: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.item {
+    min-width: 90px;
+    max-height: 8.3vw;
+    max-width: 8.3vw;
+    border: solid 1px var(--borderColor);
+    color: var(--textColor);
+    font-size: 1vw;
+}
+
+.item img {
+    /* background-color: brown; */
+    position: relative;
+    max-height: 90px;
+    max-width: 90px; 
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -10%);
+    padding: 5px;
+
+}
+
+.amount {
+    font-family: 'Stick', sans-serif;
+    padding-right: 5px;
+    color: var(--textColor);
+    text-align: right;
+    margin-top: 0;
+    font-size: 2vh;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#CraftingBackground {
+    border-radius: 15px;
+    background-color: var(--backgroundColorOne);
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    width: 24vw;
+    height: 40vh;
+    left: 38.5%;
+    top: 44%;
+    transform: translateY(-50%);
+    border: solid 2px var(--borderColor);;
+}
+
+#CraftingPatBackground {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#CraftingPat {
+    overflow: scroll;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    border-radius: 15px;
+}
+
+.craftingField {
+    height: 6vw;
+    width: 6vw;
+    background-color: var(--backgroundColorTwo);
+    color: var(--textColor);
+    font-size: 1vw;
+}
+
+#CraftButtonBackground {
+    border-radius: 15px;
+    position: absolute;
+    width: 24vw;
+    height: 10vh;
+    left: 38.5%;
+    top: 71%;
+    transform: translateY(-50%);
+    background-color: var(--backgroundColorOne);
+    border: solid 2px var(--borderColor);;
+}
+
+#CraftButtonInBackGround {
+    border-radius: 15px;
+    font-family: 'Stick', sans-serif;
+    background-color: var(--backgroundColorTwo);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    transform: translate(-50%, -50%);
+}
+
+#CraftButtonInBackGround p {
+    position: absolute;
+    margin-top: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.5vw;
+    color: var(--textColor);
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+#RecipeBackground {
+    border-radius: 15px;
+    background-color: var(--backgroundColorOne);
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    width: 25vw;
+    height: 60vh;
+    left: 63.7%;
+    top: 50%;
+    transform: translateY(-50%);
+    border: solid 2px var(--borderColor);;
+}
+
+#RecipeListBackground {
+    border-radius: 15px;
+    background-color: var(--backgroundColorTwo);
+    margin: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.Recipe {
+    font-family: 'Stick', sans-serif;
+    border: solid 1px var(--borderColor);;
+    color: white;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.Recipe h1 {
+    font-family: 'Gruppo', cursive;
+    margin-bottom: 0px;
+    color: var(--textColor);
+}
+
+.Recipe p {
+    overflow: auto;
+    max-height: 8vh;
+    margin-bottom: 2vh;
+}
+
+.Recipe p::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    display: block;
+}
+
+.Recipe p::-webkit-scrollbar-thumb {
+    background: var(--textColor);
+}
+
+/* #field1, #field2, #field3, #field4, #field5, #field6, #field7, #field8, #field9 img {
+
+}  */
+
+.craftingField img {
+    position: absolute;
+    padding-top: 2.5%;
+    padding-left: 2.5%;
+    max-width: 5.5vw;
+    max-height: 5.5vw;
+    /* transform: translate(-50%, -50%); */
+}
+
+#CraftItem {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    animation: effect 4s linear 1;
+    
+}
+
+#CraftItem img {
+    max-width: 5.5vw;
+    max-height: 5.5vw;
+}
+
+
+@keyframes effect {
+    0% {
+        transform: scale(0);
+    }
+
+    33% {
+        transform: scale(1);
+    }
+
+    66% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}

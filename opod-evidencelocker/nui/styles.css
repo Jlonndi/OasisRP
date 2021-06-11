@@ -1,0 +1,23 @@
+body{
+  overflow-y: hidden;
+  overflow-x: none;
+  background: transparent;
+}
+
+div .progress {
+  opacity: 0;
+  transition: opacity ease-in-out 0.1s;
+  background-color: rgba(0, 0,0, 0.1);
+}
+
+#progress-section {
+  width: 40%;
+  margin: 50% auto;
+  height: 32px;
+  transition: opacity ease-in-out 2s;
+}
+
+#pbar{
+  font-size: 18px;
+  background-color: #ffa600!important;
+}

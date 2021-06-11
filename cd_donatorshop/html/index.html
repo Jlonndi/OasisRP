@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" />
+    <title>Codesign Donator Shop</title>
+    <link rel="stylesheet" href="css/bootstrap-4.5.2.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      id="position-wrapper"
+      class=""
+      style="height: 80%; max-height: 80%; width: 50%"
+    >
+      <div
+        id="cd-donatorshop"
+        class="user-select-none shadow"
+        style="width: 100%; height: 100%"
+      >
+        <div class="row no-gutters h-100 bg-dark">
+          <div id="user-information" class="col-md-4 h-100">
+            <div id="user-information-header" class="text-light ds-bg-dark m-0">
+              <h3 data-locale="user_information">User information</h3>
+            </div>
+            <div
+              id="user-information-space"
+              class="ds-bg-item scrollbar"
+              style="height: calc(100% - 132px); overflow-y: auto"
+            ></div>
+            <div id="user-information-alert"></div>
+            <div
+              id="user-information-footer"
+              class="ds-bg-dark ds-border m-0 text-light p-3"
+              style="height: 66px; border-bottom-left-radius: 0.2rem !important"
+            >
+              <span class="float-left text-muted"
+                ><strong data-locale="balance">Balance </strong
+                ><span id="balance">$0.00</span></span
+              >
+            </div>
+          </div>
+          <div class="col-md-8 h-100">
+            <div
+              class="card-header text-light ds-bg-dark ds-border m-0 rounded-0"
+              style="height: 66px; border-top-right-radius: 0.2rem !important"
+            >
+              <h3>
+                <span data-locale="donator_shop">Donator Shop</span>
+                <button
+                  type="button"
+                  id="close-donatorshop"
+                  class="close text-light"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </h3>
+            </div>
+            <div
+              class="card-body border-left ds-border p-0 m-0 scrollbar ds-bg-item"
+              style="height: calc(100% - 132px); overflow-y: auto"
+            >
+              <div class="tab-content">
+                <div id="selection" class="tab-pane active fade show"></div>
+                <div id="order" class="tab-pane fade">
+                  <div
+                    class="container-fluid text-center text-light my-2 lead"
+                    data-locale="your_order"
+                  >
+                    Your order:
+                  </div>
+                  <ul
+                    id="order-list"
+                    class="list-group pl-5 pr-5 pb-3 pt-0"
+                  ></ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-footer text-right border-left ds-border ds-bg-dark text-light rounded-0"
+              style="
+                height: 66px;
+                border-bottom-right-radius: 0.2rem !important;
+              "
+            >
+              <span class="float-left text-muted"
+                ><strong data-locale="total">Total: </strong
+                ><span id="total-amount">$0.00</span></span
+              >
+              <button
+                id="button-checkout"
+                type="button"
+                class="btn btn-success float-right my-1"
+                data-toggle="tab"
+                href="#order"
+                data-locale="button_checkout"
+              >
+                Checkout
+              </button>
+              <button
+                id="button-back"
+                type="button"
+                class="btn btn-secondary float-right my-1 mr-1"
+                data-toggle="tab"
+                href="#selection"
+                data-locale="button_back"
+              >
+                Back
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="cd-donatorshop-pages"
+        class="row m-0 p-0 user-select-none ds-bg-dark justify-content-end"
+        style="height: 33px"
+      ></div>
+    </div>
+    <div id="vehicle-display" style="display: none">
+      <div class="card text-light shadow" style="width: 18rem">
+        <img
+          id="vehicle-display-logo"
+          src="images/logos/albany_2.png"
+          class="card-img-top p-4 img-fluid"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 id="vehicle-display-name" class="card-title m-1 text-capitalize">
+            Alpha
+          </h5>
+          <p id="vehicle-display-price" class="lead m-1">$20</p>
+          <blockquote
+            id="vehicle-display-description"
+            class="card-text small m-1"
+          >
+            Blending modern performance and design with the classic luxury
+            styling of a stately car, the Alpha is sleek, sexy and handles so
+            well you'll forget you're driving it. Which could be a problem at
+            150 mph...
+          </blockquote>
+          <div class="vehicle-stats">
+            <p class="small m-1 text-muted" data-locale="vehicle-display-speed">
+              Speed
+            </p>
+            <div class="progress" style="height: 0.5rem">
+              <div
+                id="vehicle-display-progress-speed"
+                class="progress-bar bg-warning"
+                role="progressbar"
+                style="width: 75%"
+              ></div>
+            </div>
+            <p
+              class="small m-1 text-muted"
+              data-locale="vehicle-display-handling"
+            >
+              Handling
+            </p>
+            <div class="progress" style="height: 0.5rem">
+              <div
+                id="vehicle-display-progress-handling"
+                class="progress-bar bg-primary"
+                role="progressbar"
+                style="width: 75%"
+              ></div>
+            </div>
+            <p
+              class="small m-1 text-muted"
+              data-locale="vehicle-display-brakes"
+            >
+              Brakes
+            </p>
+            <div class="progress" style="height: 0.5rem">
+              <div
+                id="vehicle-display-progress-brakes"
+                class="progress-bar bg-danger"
+                role="progressbar"
+                style="width: 75%"
+              ></div>
+            </div>
+            <p
+              class="small m-1 text-muted"
+              data-locale="vehicle-display-acceleration"
+            >
+              Acceleration
+            </p>
+            <div class="progress" style="height: 0.5rem">
+              <div
+                id="vehicle-display-progress-acceleration"
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 75%"
+              ></div>
+            </div>
+          </div>
+          <div id="vehicle-footer">
+            <p class="small text-muted">
+              Press <kbd>E</kbd> to purchase the vehicle
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" tabindex="-1">
+      <div
+        class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content rounded-0 bg-transparent">
+          <div class="modal-header ds-bg-dark text-light ds-border rounded-0">
+            <h5 id="pages-title" class="modal-title">Pages title</h5>
+            <button
+              type="button"
+              class="close text-light"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div
+            id="pages-body"
+            class="modal-body ds-bg-item text-light ds-border opacity-90"
+          >
+            <p>Modal body text goes here.</p>
+          </div>
+          <div
+            class="modal-footer ds-bg-item text-muted ds-border rounded-0 opacity-90"
+          >
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+              data-locale="button_close"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../configs/config_ui.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/popper-1.16.1.js"></script>
+    <script src="js/bootstrap-4.5.2.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/vehicles.js"></script>
+  </body>
+</html>

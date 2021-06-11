@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      (function() {   
+        var player;
+
+        window.AudioContext = window.AudioContext || window.webkitAudioContext;
+        const audioContext = new AudioContext();
+
+        function GetWave(url,play,sampleSize,callback) {
+          fetch(url)
+          .then(function(response) {
+            response.arrayBuffer()
+            .then(function(arrayBuffer) {
+              audioContext.decodeAudioData(arrayBuffer)
+              .then(function(audioBuffer) {
+                var wave = FilterData(audioBuffer,sampleSize);
+
+                if (play) {
+                  //var source    = audioContext.createBufferSource();
+                  //source.buffer = audioBuffer;
+
+                  //source.connect(audioContext.destination);
+                  //source.start(0);
+                  player = new Audio(url);
+                  player.callback = (callback != undefined ? callback : false);
+                  player.wave = wave;
+                  player.duration = audioBuffer.duration;
+                  player.addEventListener("loadeddata",function() {
+                    if (this.callback) {
+                      callback(this.wave,this.duration);
+                    }
+                    this.volume = 0.5;
+                    this.play();
+                  })
+                }
+              });
+            });
+          });          
+        };
+
+        function FilterData(audioBuffer,sampleSize) {
+          const rawData = audioBuffer.getChannelData(0); 
+          const samples = sampleSize; 
+          const blockSize = Math.floor(rawData.length / samples); 
+          const filteredData = [];
+          for (let i = 0; i < samples; i++) {
+            filteredData.push(rawData[i * blockSize]); 
+          }
+          return filteredData;
+        }
+
+        window.addEventListener('message',function(event) {
+          if (event.data.type == "Get") {
+            var id  = event.data.id;
+            var cb  = event.data.cb;
+            GetWave(event.data.url,event.data.play,event.data.samplesize,function(wave,duration) {
+              $.post(cb,JSON.stringify({id:id,wave:wave,duration:duration}));
+            })            
+          } else if (event.data.type == "Stop") {
+            SetVolume = function(v) {
+              if (v > 0.0) {
+                player.volume = v;
+                setTimeout(function() {
+                  SetVolume(v-0.1);
+                },500);
+              } else {
+                player.pause();
+              }
+            }
+
+            SetVolume(0.5);
+          }
+        })
+      })();
+    </script>
+  </body>
+</html>

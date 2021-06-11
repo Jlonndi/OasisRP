@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+     <Item>
+      <modelName>freeman</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">  <!-- Medium Luster Black / Silver -->
+            0
+            4
+            0
+            1
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/> <!-- 01 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 02 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 03 --> <!-- Dude -->
+            <Item value="false"/> <!-- 04 --> <!-- Dude -->
+            <Item value="false"/> <!-- 05 --> <!-- Red's -->
+            <Item value="true"/> <!-- 06 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 07 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 08 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 09 --> <!-- Red's -->
+            <Item value="false"/> <!-- 10 --> <!-- Solarin -->
+            <Item value="false"/> <!-- 11 --> <!-- Roadworks -->
+            <Item value="true"/> <!-- 12 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 13 --> <!-- McGill - Olsen -->
+            <Item value="false"/> <!-- 14 --> <!-- STD Contractors -->
+            <Item value="true"/> <!-- 15 --> <!-- T.Watts -->
+            <Item value="true"/> <!-- 16 --> <!-- Go Loco -->
+            <Item value="false"/> <!-- 17 --> <!-- Lando-Corp -->
+            <Item value="false"/> <!-- 18 --> <!-- Skiver -->
+            <Item value="false"/> <!-- 19 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 20 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 21 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 22 --> <!--  -->
+            <Item value="false"/> <!-- 23 --> <!--  -->
+            <Item value="false"/> <!-- 24 --> <!--  -->
+            <Item value="false"/> <!-- 25 --> <!--  -->
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Barcelona Blue / Tan -->
+            172
+            107
+            0
+            1
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/> <!-- 01 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 02 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 03 --> <!-- Dude -->
+            <Item value="false"/> <!-- 04 --> <!-- Dude -->
+            <Item value="false"/> <!-- 05 --> <!-- Red's -->
+            <Item value="true"/> <!-- 06 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 07 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 08 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 09 --> <!-- Red's -->
+            <Item value="false"/> <!-- 10 --> <!-- Solarin -->
+            <Item value="false"/> <!-- 11 --> <!-- Roadworks -->
+            <Item value="true"/> <!-- 12 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 13 --> <!-- McGill - Olsen -->
+            <Item value="false"/> <!-- 14 --> <!-- STD Contractors -->
+            <Item value="true"/> <!-- 15 --> <!-- T.Watts -->
+            <Item value="true"/> <!-- 16 --> <!-- Go Loco -->
+            <Item value="false"/> <!-- 17 --> <!-- Lando-Corp -->
+            <Item value="false"/> <!-- 18 --> <!-- Skiver -->
+            <Item value="false"/> <!-- 19 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 20 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 21 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 22 --> <!--  -->
+            <Item value="false"/> <!-- 23 --> <!--  -->
+            <Item value="false"/> <!-- 24 --> <!--  -->
+            <Item value="false"/> <!-- 25 --> <!--  -->
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Feather Gray -->
+            6
+            107
+            0
+            1
+            0
+          </indices>
+          <liveries>
+            <Item value="true"/> <!-- 01 --> <!-- Pan Lantic -->
+            <Item value="true"/> <!-- 02 --> <!-- Pan Lantic -->
+            <Item value="true"/> <!-- 03 --> <!-- Dude -->
+            <Item value="true"/> <!-- 04 --> <!-- Dude -->
+            <Item value="true"/> <!-- 05 --> <!-- Red's -->
+            <Item value="false"/> <!-- 06 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 07 --> <!-- We Dig It -->
+            <Item value="true"/> <!-- 08 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 09 --> <!-- Red's -->
+            <Item value="true"/> <!-- 10 --> <!-- Solarin -->
+            <Item value="true"/> <!-- 11 --> <!-- Roadworks -->
+            <Item value="true"/> <!-- 12 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 13 --> <!-- McGill - Olsen -->
+            <Item value="true"/> <!-- 14 --> <!-- STD Contractors -->
+            <Item value="false"/> <!-- 15 --> <!-- T.Watts -->
+            <Item value="false"/> <!-- 16 --> <!-- Go Loco -->
+            <Item value="true"/> <!-- 17 --> <!-- Lando-Corp -->
+            <Item value="true"/> <!-- 18 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 19 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 20 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 21 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 22 --> <!--  -->
+            <Item value="false"/> <!-- 23 --> <!--  -->
+            <Item value="false"/> <!-- 24 --> <!--  -->
+            <Item value="false"/> <!-- 25 --> <!--  -->
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Monsoon Maroon -->
+            167
+            3
+            0
+            107
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/> <!-- 01 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 02 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 03 --> <!-- Dude -->
+            <Item value="false"/> <!-- 04 --> <!-- Dude -->
+            <Item value="false"/> <!-- 05 --> <!-- Red's -->
+            <Item value="true"/> <!-- 06 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 07 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 08 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 09 --> <!-- Red's -->
+            <Item value="false"/> <!-- 10 --> <!-- Solarin -->
+            <Item value="false"/> <!-- 11 --> <!-- Roadworks -->
+            <Item value="true"/> <!-- 12 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 13 --> <!-- McGill - Olsen -->
+            <Item value="false"/> <!-- 14 --> <!-- STD Contractors -->
+            <Item value="true"/> <!-- 15 --> <!-- T.Watts -->
+            <Item value="true"/> <!-- 16 --> <!-- Go Loco -->
+            <Item value="false"/> <!-- 17 --> <!-- Lando-Corp -->
+            <Item value="false"/> <!-- 18 --> <!-- Skiver -->
+            <Item value="false"/> <!-- 19 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 20 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 21 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 22 --> <!--  -->
+            <Item value="false"/> <!-- 23 --> <!--  -->
+            <Item value="false"/> <!-- 24 --> <!--  -->
+            <Item value="false"/> <!-- 25 --> <!--  -->
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Tucson Tan / Ivory -->
+            169
+            107
+            0
+            107
+            0
+          </indices>
+          <liveries>
+            <Item value="true"/> <!-- 01 --> <!-- Pan Lantic -->
+            <Item value="true"/> <!-- 02 --> <!-- Pan Lantic -->
+            <Item value="true"/> <!-- 03 --> <!-- Dude -->
+            <Item value="true"/> <!-- 04 --> <!-- Dude -->
+            <Item value="true"/> <!-- 05 --> <!-- Red's -->
+            <Item value="false"/> <!-- 06 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 07 --> <!-- We Dig It -->
+            <Item value="true"/> <!-- 08 --> <!-- We Dig It -->
+            <Item value="true"/> <!-- 09 --> <!-- Red's -->
+            <Item value="false"/> <!-- 10 --> <!-- Solarin -->
+            <Item value="true"/> <!-- 11 --> <!-- Roadworks -->
+            <Item value="true"/> <!-- 12 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 13 --> <!-- McGill - Olsen -->
+            <Item value="true"/> <!-- 14 --> <!-- STD Contractors -->
+            <Item value="false"/> <!-- 15 --> <!-- T.Watts -->
+            <Item value="false"/> <!-- 16 --> <!-- Go Loco -->
+            <Item value="false"/> <!-- 17 --> <!-- Lando-Corp -->
+            <Item value="true"/> <!-- 18 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 19 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 20 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 21 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 22 --> <!--  -->
+            <Item value="false"/> <!-- 23 --> <!--  -->
+            <Item value="false"/> <!-- 24 --> <!--  -->
+            <Item value="false"/> <!-- 25 --> <!--  -->
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Vermilion / Silver -->
+            28
+            4
+            0
+            1
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/> <!-- 01 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 02 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 03 --> <!-- Dude -->
+            <Item value="false"/> <!-- 04 --> <!-- Dude -->
+            <Item value="false"/> <!-- 05 --> <!-- Red's -->
+            <Item value="true"/> <!-- 06 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 07 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 08 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 09 --> <!-- Red's -->
+            <Item value="false"/> <!-- 10 --> <!-- Solarin -->
+            <Item value="false"/> <!-- 11 --> <!-- Roadworks -->
+            <Item value="true"/> <!-- 12 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 13 --> <!-- McGill - Olsen -->
+            <Item value="false"/> <!-- 14 --> <!-- STD Contractors -->
+            <Item value="true"/> <!-- 15 --> <!-- T.Watts -->
+            <Item value="true"/> <!-- 16 --> <!-- Go Loco -->
+            <Item value="false"/> <!-- 17 --> <!-- Lando-Corp -->
+            <Item value="false"/> <!-- 18 --> <!-- Skiver -->
+            <Item value="false"/> <!-- 19 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 20 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 21 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 22 --> <!--  -->
+            <Item value="false"/> <!-- 23 --> <!--  -->
+            <Item value="false"/> <!-- 24 --> <!--  -->
+            <Item value="false"/> <!-- 25 --> <!--  -->
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Vermilion / Ivory -->
+            28
+            107
+            0
+            3
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/> <!-- 01 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 02 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 03 --> <!-- Dude -->
+            <Item value="false"/> <!-- 04 --> <!-- Dude -->
+            <Item value="false"/> <!-- 05 --> <!-- Red's -->
+            <Item value="true"/> <!-- 06 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 07 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 08 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 09 --> <!-- Red's -->
+            <Item value="false"/> <!-- 10 --> <!-- Solarin -->
+            <Item value="false"/> <!-- 11 --> <!-- Roadworks -->
+            <Item value="true"/> <!-- 12 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 13 --> <!-- McGill - Olsen -->
+            <Item value="false"/> <!-- 14 --> <!-- STD Contractors -->
+            <Item value="true"/> <!-- 15 --> <!-- T.Watts -->
+            <Item value="true"/> <!-- 16 --> <!-- Go Loco -->
+            <Item value="false"/> <!-- 17 --> <!-- Lando-Corp -->
+            <Item value="false"/> <!-- 18 --> <!-- Skiver -->
+            <Item value="false"/> <!-- 19 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 20 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 21 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 22 --> <!--  -->
+            <Item value="false"/> <!-- 23 --> <!--  -->
+            <Item value="false"/> <!-- 24 --> <!--  -->
+            <Item value="false"/> <!-- 25 --> <!--  -->
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Rotunda Gray -->
+            3
+            4
+            0
+            1
+            0
+          </indices>
+          <liveries>
+            <Item value="true"/> <!-- 01 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 02 --> <!-- Pan Lantic -->
+            <Item value="true"/> <!-- 03 --> <!-- Dude -->
+            <Item value="true"/> <!-- 04 --> <!-- Dude -->
+            <Item value="true"/> <!-- 05 --> <!-- Red's -->
+            <Item value="false"/> <!-- 06 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 07 --> <!-- We Dig It -->
+            <Item value="true"/> <!-- 08 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 09 --> <!-- Red's -->
+            <Item value="true"/> <!-- 10 --> <!-- Solarin -->
+            <Item value="true"/> <!-- 11 --> <!-- Roadworks -->
+            <Item value="true"/> <!-- 12 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 13 --> <!-- McGill - Olsen -->
+            <Item value="true"/> <!-- 14 --> <!-- STD Contractors -->
+            <Item value="false"/> <!-- 15 --> <!-- T.Watts -->
+            <Item value="false"/> <!-- 16 --> <!-- Go Loco -->
+            <Item value="true"/> <!-- 17 --> <!-- Lando-Corp -->
+            <Item value="true"/> <!-- 18 --> <!-- Skiver -->
+            <Item value="false"/> <!-- 19 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 20 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 21 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 22 --> <!--  -->
+            <Item value="false"/> <!-- 23 --> <!--  -->
+            <Item value="false"/> <!-- 24 --> <!--  -->
+            <Item value="false"/> <!-- 25 --> <!--  -->
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Glade Green / Ivory -->
+            170
+            107
+            0
+            170
+            0
+          </indices>
+          <liveries>
+            <Item value="false"/> <!-- 01 --> <!-- Pan Lantic -->
+            <Item value="true"/> <!-- 02 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 03 --> <!-- Dude -->
+            <Item value="true"/> <!-- 04 --> <!-- Dude -->
+            <Item value="false"/> <!-- 05 --> <!-- Red's -->
+            <Item value="false"/> <!-- 06 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 07 --> <!-- We Dig It -->
+            <Item value="true"/> <!-- 08 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 09 --> <!-- Red's -->
+            <Item value="true"/> <!-- 10 --> <!-- Solarin -->
+            <Item value="false"/> <!-- 11 --> <!-- Roadworks -->
+            <Item value="true"/> <!-- 12 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 13 --> <!-- McGill - Olsen -->
+            <Item value="true"/> <!-- 14 --> <!-- STD Contractors -->
+            <Item value="false"/> <!-- 15 --> <!-- T.Watts -->
+            <Item value="false"/> <!-- 16 --> <!-- Go Loco -->
+            <Item value="false"/> <!-- 17 --> <!-- Lando-Corp -->
+            <Item value="true"/> <!-- 18 --> <!-- Skiver -->
+            <Item value="false"/> <!-- 19 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 20 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 21 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 22 --> <!--  -->
+            <Item value="false"/> <!-- 23 --> <!--  -->
+            <Item value="false"/> <!-- 24 --> <!--  -->
+            <Item value="false"/> <!-- 25 --> <!--  -->
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Glade Green / Silver -->
+            170
+            4
+            0
+            0
+            0
+          </indices>
+          <liveries>
+            <Item value="true"/> <!-- 01 --> <!-- Pan Lantic -->
+            <Item value="false"/> <!-- 02 --> <!-- Pan Lantic -->
+            <Item value="true"/> <!-- 03 --> <!-- Dude -->
+            <Item value="false"/> <!-- 04 --> <!-- Dude -->
+            <Item value="true"/> <!-- 05 --> <!-- Red's -->
+            <Item value="false"/> <!-- 06 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 07 --> <!-- We Dig It -->
+            <Item value="false"/> <!-- 08 --> <!-- We Dig It -->
+            <Item value="true"/> <!-- 09 --> <!-- Red's -->
+            <Item value="false"/> <!-- 10 --> <!-- Solarin -->
+            <Item value="false"/> <!-- 11 --> <!-- Roadworks -->
+            <Item value="true"/> <!-- 12 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 13 --> <!-- McGill - Olsen -->
+            <Item value="true"/> <!-- 14 --> <!-- STD Contractors -->
+            <Item value="false"/> <!-- 15 --> <!-- T.Watts -->
+            <Item value="false"/> <!-- 16 --> <!-- Go Loco -->
+            <Item value="true"/> <!-- 17 --> <!-- Lando-Corp -->
+            <Item value="false"/> <!-- 18 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 19 --> <!-- Skiver -->
+            <Item value="true"/> <!-- 20 --> <!-- BLANK -->
+            <Item value="true"/> <!-- 21 --> <!-- BLANK -->
+            <Item value="false"/> <!-- 22 --> <!--  -->
+            <Item value="false"/> <!-- 23 --> <!--  -->
+            <Item value="false"/> <!-- 24 --> <!--  -->
+            <Item value="false"/> <!-- 25 --> <!--  -->
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="0" />
+    </Item>
+</variationData>
+</CVehicleModelInfoVariation>

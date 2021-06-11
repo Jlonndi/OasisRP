@@ -1,0 +1,466 @@
+@import url('https://kit-pro.fontawesome.com/releases/v5.11.2/css/pro.min.css');
+
+@font-face {
+  font-family: BebasNeueBold;
+  src: url(BebasNeueBold.ttf);
+}
+
+*{
+	user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+*{
+	user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+html {
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	display: none;
+	color: #a8a8aa;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 1);
+  transition: 0.3s;
+  width: 20%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 20px;
+  
+  padding: 1.5%;
+}
+
+.tvinformations {
+	width: 95%;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+	/* display: none; */
+}
+.resp-container {
+	width: 100%;
+	padding-top: 100%;
+	position: relative;
+}
+
+.previewtext{
+	position: absolute;
+	max-width:100%;
+	max-height:100%;
+	font-size: 40px;
+	text-align: center;
+	color: #ffffff;
+	top: 12%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.urlinput{
+	background-color: rgba(0, 0, 0, 1);
+	border: 2px solid #ff66ff;
+	color: #ffffff;
+	font-size: 25px;
+	padding: 5px;
+	font-weight: 100;
+	position: absolute;
+	text-align: center;
+	text-align: center;
+	width: 50%;
+	height: 5%;
+	top: 63%;
+	left: 50%;
+	padding-top: 10px;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.urlinput input{
+	color: #ffffff;
+	font-size: 20px;
+	text-align:center;
+	padding: 5px;
+	font-weight: 100;
+	color: #ffffff;
+	border: none;
+	width: 100%;
+	outline: none;
+	background: none;
+}
+
+.urlinput span::after{
+  content: '';
+  position: absolute;
+  text-align:center;
+  padding: 5px;
+  width: 0%;
+  height: 2px;
+  background: #ff66ff;
+  transition: .5s;
+}
+
+::placeholder { 
+    color: white;
+    text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 5px;
+	font-weight: 100;
+    font-family: BebasNeueBold;
+}
+
+.resp-iframe {
+	position: absolute;
+	width:500px;
+	height:250px;
+	top: 35%;
+	left: 50%;
+	border: 2px solid #ff66ff;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.image-holder3 {
+	width: 100%;
+	padding-top: 100%;
+	position: relative;
+}
+
+.image-holder3 img {
+	position: absolute;
+	max-width:100%;
+	max-height:100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 2px solid #ff66ff;		
+	top: -45%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	padding: 10px;
+	z-index: 9999999;
+}
+
+
+.tvplaybutton {
+	background-color: rgba(0, 0, 0, 1);
+	border: 2px solid #ff66ff;
+	color: #ffffff;
+	font-size: 25px;
+	padding: 5px;
+	font-weight: 100;
+	position: absolute;
+	text-align: center;
+	width: 20%;
+	top: 76%;
+	left: 50%;
+	padding-top: 10px;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.tvplaybutton:hover {
+	cursor: pointer;
+	background: #ff66ff;
+	text-decoration: none;
+}
+
+.tvstartoffbutton {
+	background-color: rgba(0, 0, 0, 1);
+	border: 2px solid #ff66ff;
+	color: #ffffff;
+	font-size: 25px;
+	padding: 5px;
+	font-weight: 100;
+	position: absolute;
+	text-align: center;
+	width: 20%;
+	top: 91%;
+	left: 15%;
+	padding-top: 10px;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.tvstartoffbutton:hover {
+	cursor: pointer;
+	background: #ff66ff;
+	text-decoration: none;
+}
+
+.syncbutton {
+	background-color: rgba(0, 0, 0, 1);
+	border: 2px solid #ff66ff;
+	color: #ffffff;
+	font-size: 25px;
+	padding: 5px;
+	font-weight: 100;
+	position: absolute;
+	text-align: center;
+	width: 20%;
+	top: 91%;
+	right: -6%;
+	padding-top: 10px;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.syncbutton:hover {
+	cursor: pointer;
+	background: #ff66ff;
+	text-decoration: none;
+}
+
+.headermoney {
+	padding: 5px;	
+	font-size: 40px;
+	display: flex;
+	color: #ffffff;
+	text-align: center;
+	justify-content: center;
+	position: absolute;
+	top: 63%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+ 
+h4{
+	text-align:center;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.itemprice {
+	color: #ff66ff;
+	font-size: 30px;
+}
+
+.itemcount {
+	color: #ff66ff;
+	font-size: 30px;
+}
+
+.full-screen {
+  width: 100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+
+.tv-container {
+	width: 55%;
+	height: 70%;
+	background-color: rgba(0, 0, 0, 0.70);
+	border: 3px solid #ff66ff;
+	border-radius: 1px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.container {
+	color: #ffffff;
+	font-size: 20px;
+	padding: 2px 16px;
+}
+
+.header {
+  width:100%;
+  height: 52px;
+  background-color: rgba(0, 0, 0, 1);
+  border-bottom: 3px solid #ff66ff;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  margin:auto;
+}
+
+.close{
+	padding: 10px;
+}
+.close:hover{
+	padding: 10px;
+}
+
+.volumechanging {
+	background-color: rgba(0, 0, 0, 1);
+	border: 2px solid #ff66ff;
+    display: block;
+	border: 2px solid #ff66ff;	
+	color: #ffffff;
+	font-size: 25px;
+	padding: 5px;
+	font-weight: 100;
+	position: absolute;
+	text-align: center;
+	width: 30%;
+	top: 92%;
+	left: 50%;
+	padding-top: 10px;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+.textvolume {
+	position: absolute;
+	max-width:100%;
+	max-height:100%;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	top: 86%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	z-index: 9999999;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  /* Hides the slider so that custom slider can be made */
+  width: 200px;
+  /* Specific width is required for Firefox. */
+  background: transparent;
+  /* Otherwise white in Chrome */
+  vertical-align: middle;
+  padding: 0 10px; }
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; }
+
+input[type=range]:focus {
+  outline: none;
+  /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */ }
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent; }
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  background: #ff66ff;
+  cursor: pointer;
+  margin-top: -6px;
+  /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ }
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  background: #ff66ff;
+  cursor: pointer; }
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+  background: #ffffff;
+  cursor: pointer; }
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 330px;
+  height: 2px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 1); }
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: rgba(255, 255, 255, 1); }
+
+input[type=range]::-moz-range-track {
+  width: 330px;
+  height: 2px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 1); }
+
+input[type=range]::-ms-track {
+  width: 330px;
+  height: 2px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent; }
+
+input[type=range]::-ms-fill-lower {
+  background: rgba(255, 255, 255, 1); }
+
+input[type=range]:focus::-ms-fill-lower {
+  background: rgba(255, 255, 255, 1); }
+
+input[type=range]::-ms-fill-upper {
+  background: rgba(255, 255, 255, 1); }
+
+input[type=range]:focus::-ms-fill-upper {
+  background: rgba(255, 255, 255, 1); }
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.body {
+	overflow: auto;
+	width: 100%;
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: BebasNeueBold;
+}
+*{
+	font-family: BebasNeueBold;
+}

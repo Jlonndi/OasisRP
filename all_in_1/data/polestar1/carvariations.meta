@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+	     <Item>
+      <modelName>polestar1v2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">  <!-- Snow White -->
+            111
+            111
+            111
+            111
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Yellow -->
+            89
+            105
+            88
+            120
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Black / Red -->
+            0
+            34
+            0
+            27
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Midnight Purple -->
+            146
+            71
+            145
+            145
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Black Steel -->
+            118
+            27
+            3
+            27
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Red -->
+            34
+            0
+            35
+            2
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Olive -->
+            52
+            107
+            59
+            151
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Magnetic -->
+            154
+            12
+            0
+            111
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Black -->
+            0
+            0
+            0
+            5
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Wine Red / Red -->
+            0
+            28
+            44
+            5
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Stone Grey / Cream -->
+            10
+            107
+            10
+            111
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="0" />
+    </Item>
+	     <Item>
+      <modelName>polestar1</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">  <!-- Snow White -->
+            111
+            111
+            111
+            111
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Yellow -->
+            89
+            105
+            88
+            120
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Black / Red -->
+            0
+            34
+            0
+            27
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Midnight Purple -->
+            146
+            71
+            145
+            145
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Black Steel -->
+            118
+            27
+            3
+            27
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Red -->
+            34
+            0
+            35
+            2
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Olive -->
+            52
+            107
+            59
+            151
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Magnetic -->
+            154
+            12
+            0
+            111
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Black -->
+            0
+            0
+            0
+            5
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Wine Red / Red -->
+            0
+            28
+            44
+            5
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">  <!-- Stone Grey / Cream -->
+            10
+            107
+            10
+            111
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

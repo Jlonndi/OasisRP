@@ -1,0 +1,45 @@
+{
+  "vehicles": [
+    "addonvehiclename1",
+    "addonvehiclename2"
+  ],
+  "peds": [
+    "Hulk(AgeOfUltron)",
+    "LioMessiCiv",
+    "WillSmith",
+    "STR_OptimusPrimeBIG",
+    "STR_OptimusPrime",
+    "Aquaman",
+    "shrek",
+    "BlackPanther",
+    "Minion",
+    "MinionChemScientist",
+    "MinionFireman",
+    "MinionMedic",
+    "MinionPolice",
+    "MinionSoldier",
+    "MinionZombie",
+    "MinionGirl",
+    "BatmanBVS",
+    "MK47",
+    "KanyeWest",
+    "therock(jeans)",
+    "therock(nojeans)",
+    "u_m_m_aldinapoli",
+    "bumblebee(transformers)BIG",
+    "bumblebee(transformers)MINI",
+    "fergie",
+    "AdaCasualA",
+    "AdaCasualB",
+    "AdaCasualC",
+    "Tifa"
+  ],
+  "weapons": [
+    "addonweaponname1",
+    "addonweaponname2"
+  ],
+  "weapon_components": [
+    "weapon_component_name_1",
+    "weapon_component_name_2"
+  ]
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfo__InitDataList>
+  <residentTxd>vehshare</residentTxd>
+  <residentAnims />
+  <InitDatas>
+   <Item>
+      <modelName>amels200</modelName>
+      <txdName>amels200</txdName>
+      <handlingId>amels200</handlingId>
+      <gameName>amels200</gameName>
+      <vehicleMakeName />
+      <expressionDictName>null</expressionDictName>
+      <expressionName>null</expressionName>
+      <animConvRoofDictName>null</animConvRoofDictName>
+      <animConvRoofName>null</animConvRoofName>
+      <animConvRoofWindowsAffected />
+      <ptfxAssetName>null</ptfxAssetName>
+      <audioNameHash>tug</audioNameHash>
+      <layout>LAYOUT_BOAT_DINGHY</layout>
+      <coverBoundOffsets>STANDARD_COVER_OFFSET_INFO</coverBoundOffsets>
+      <explosionInfo>EXPLOSION_INFO_MARQUIS</explosionInfo>
+      <scenarioLayout />
+      <cameraName>FOLLOW_YACHT_CAMERA</cameraName>
+      <aimCameraName>YACHT_AIM_CAMERA</aimCameraName>
+      <bonnetCameraName>BOAT_BONNET_CAMERA</bonnetCameraName>
+      <povCameraName>DEFAULT_POV_CAMERA</povCameraName>
+      <FirstPersonDriveByIKOffset x="0.00" y="-0.060" z="-0.0330" />
+      <FirstPersonDriveByUnarmedIKOffset x="0.00" y="0.00" z="0.00" />
+	  <FirstPersonProjectileDriveByIKOffset x="0.00" y="0.00" z="0.00" />
+	  <FirstPersonProjectileDriveByPassengerIKOffset x="0.00" y="0.00" z="0.00" />
+	  <FirstPersonDriveByLeftPassengerIKOffset x="0.00" y="0.00" z="0.00" />
+	  <FirstPersonDriveByRightPassengerIKOffset x="0.00" y="-0.020" z="-0.0410" />
+	  <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.00" y="0.00" z="0.00" />
+	  <FirstPersonDriveByRightPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
+	  <FirstPersonMobilePhoneOffset x="0.1550" y="0.3150" z="0.6430" />
+      <FirstPersonPassengerMobilePhoneOffset x="0.00" y="0.00" z="0.00" />
+      <PovCameraOffset x="0.000000" y="-0.090000" z="1.090" />
+      <PovCameraVerticalAdjustmentForRollCage value="-0.0450" />
+      <PovPassengerCameraOffset x="0.00" y="0.00" z="0.00" />
+      <vfxInfoName>VFXVEHICLEINFO_BOAT_TUG</vfxInfoName>
+      <shouldUseCinematicViewMode value="true" />
+      <shouldCameraTransitionOnClimbUpDown value="false" />
+      <shouldCameraIgnoreExiting value="false" />
+      <AllowPretendOccupants value="true" />
+      <AllowJoyriding value="true" />
+      <AllowSundayDriving value="true" />
+      <AllowBodyColorMapping value="true" />
+      <wheelScale value="0.500" />
+      <wheelScaleRear value="0.500" />
+      <dirtLevelMin value="0.00" />
+      <dirtLevelMax value="0.800" />
+      <envEffScaleMin value="0.00" />
+      <envEffScaleMax value="1.00" />
+      <envEffScaleMin2 value="0.00" />
+      <envEffScaleMax2 value="1.00" />
+      <damageMapScale value="0.600" />
+      <damageOffsetScale value="1.00" />
+      <diffuseTint value="0x00FFFFFF" />
+      <steerWheelMult value="1.00" />
+      <HDTextureDist value="5.00" />
+      <lodDistances content="float_array">
+        30.00
+        70.00
+        150.00
+        300.00
+        1000.00
+        1000.00
+      </lodDistances>
+      <identicalModelSpawnDistance value="20" />
+      <maxNumOfSameColor value="10" />
+      <defaultBodyHealth value="1000.00" />
+      <pretendOccupantsScale value="1.00" />
+      <visibleSpawnDistScale value="2.00" />
+      <trackerPathWidth value="2.00" />
+      <weaponForceMult value="1.00" />
+      <frequency value="100" />
+      <swankness>SWANKNESS_2</swankness>
+      <maxNum value="999" />
+      <flags>FLAG_NO_BOOT FLAG_TALL_SHIP FLAG_PEDS_CAN_STAND_ON_TOP FLAG_GEN_NAVMESH FLAG_AVERAGE_CAR FLAG_DONT_SPAWN_AS_AMBIENT FLAG_CANNOT_TAKE_COVER_WHEN_STOOD_ON FLAG_CANNOT_BE_PICKUP_BY_CARGOBOB</flags>
+      <type>VEHICLE_TYPE_BOAT</type>
+      <plateType>VPT_NONE</plateType>
+      <dashboardType>VDT_TRUCKDIGI</dashboardType>        
+      <vehicleClass>VC_BOAT</vehicleClass>
+      <wheelType>VWT_SPORT</wheelType>
+      <trailers />
+      <additionalTrailers />
+      <drivers />
+      <extraIncludes />
+      <doorsWithCollisionWhenClosed />
+      <driveableDoors />
+      <bumpersNeedToCollideWithMap value="false" />
+      <needsRopeTexture value="false" />
+      <requiredExtras />
+      <rewards />
+      <cinematicPartCamera>
+        <Item>MARQUIS_SIREN_LEFT_CAMERA</Item>
+        <Item>MARQUIS_SIREN_RIGHT_CAMERA</Item>
+      </cinematicPartCamera>
+      <NmBraceOverrideSet />
+      <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+      <buoyancySphereSizeScale value="1.000000" />
+      <pOverrideRagdollThreshold type="NULL" />
+      <firstPersonDrivebyData>
+        <Item>BOAT_TUG_FRONT</Item>
+      </firstPersonDrivebyData>
+    </Item>
+  </InitDatas>
+  <txdRelationships>
+    <Item>
+      <parent>vehicles_boat_interior</parent>
+      <child>amels200</child>
+    </Item>
+  </txdRelationships>
+</CVehicleModelInfo__InitDataList>

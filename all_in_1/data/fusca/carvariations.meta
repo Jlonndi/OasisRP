@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+   <Item>
+      <modelName>fusca</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            4
+            33 
+            0
+            0 
+          </indices>
+          <liveries></liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            74 
+            74 
+            0 
+            121 
+          </indices>
+          <liveries></liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            93
+            107
+            0
+            107
+          </indices>
+          <liveries></liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            104
+            97 
+            0 
+            97 
+          </indices>
+          <liveries></liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            58
+            58 
+            0 
+            121
+          </indices>
+          <liveries></liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            121
+            33 
+            0 
+            0 
+          </indices>
+          <liveries></liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            143
+            107
+            0 
+            107
+          </indices>
+          <liveries></liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            97 
+            107
+            0 
+            107 
+          </indices>
+          <liveries></liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            63 
+            74 
+            0 
+            121 
+          </indices>
+          <liveries></liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            1
+            58 
+            0 
+            0 
+          </indices>
+          <liveries></liveries>
+        </Item>
+		<Item>
+          <indices content="char_array">
+            2 
+            2 
+            0 
+            156 
+          </indices>
+          <liveries></liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="25" />
+          </Item>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>White Plate 2</Name>
+            <Value value="25" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

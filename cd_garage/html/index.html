@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Garage</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-4.5.2.css">
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/json-menu-stylesheet.css">
+  </head>
+  <body>
+    <div id="largeGarage" class="container-fluid">
+    <div id="header" class="jumbotron bg-dark text-light pb-3 pt-2 shadow">
+        <div  class="row">
+            <div class="col-6" style="line-height:1"><h4 class="display-4"><strong id="carName"></strong>, <small id="carMake" style="line-height:0.5" class="text-muted lead text-uppercase"></small></h4>
+            </div>
+            <div class="col-3 text-right my-auto">
+                <h6><span id="classBadge" class="badge badge-warning"></span> <span id="priceBadge" class="badge badge-success"></span> <span id="milesBadge" class="badge badge-warning" data-units="km"></span> <span id="plateBadge" class="badge badge-secondary"></span></h6>
+            </div>
+            <div class="col-3 align-self-center text-right">
+                <img id="textLogo" src="images/logos/import_1.png" class="img-fluid" style="max-height:96px"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <small id="garageLocation" class="text-muted"></small>
+            </div>
+        </div>
+        <hr/>
+        <div class="row">
+            <div class="col-6">
+                <h4 class="lead" data-locale="INSIDE_UPGRADES">Vehicle upgrades</h4>
+                <div class="row">
+                    <div class="col-6">
+                            <small class="text-muted" data-locale="INSIDE_UPGRADES_ENGINE">Engine</small>
+                            <div class="progress bg-secondary">
+                                <div id="engineBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                            </div>
+                    </div>
+                    <div class="col-6">
+                        <small class="text-muted" data-locale="INSIDE_UPGRADES_BRAKES">Brakes</small>
+                            <div class="progress bg-secondary">
+                                <div id="brakesBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <small class="text-muted" data-locale="INSIDE_UPGRADES_SUSPENSION">Suspension</small>
+                            <div class="progress bg-secondary">
+                                <div id="suspensionBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                                </div>
+                    </div>
+                    <div class="col-6">
+                        <small class="text-muted" data-locale="INSIDE_UPGRADES_TRANSMISSION">Transmission</small>
+                            <div class="progress bg-secondary">
+                                <div id="transmissionBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <small class="text-muted" data-locale="INSIDE_UPGRADES_TURBO">Turbo</small>
+                            <div class="progress bg-secondary">
+                                <div id="turboBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="lead" data-locale="INSIDE_STATS">Vehicle statistics & health</h4>
+                        <div class="row">
+                            <div class="col-4">
+                                <small class="text-muted" data-locale="INSIDE_STATS_HANDLING">Handling</small>                                
+                                <div class="progress bg-secondary">
+                                <div id="handlingBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <small class="text-muted" data-locale="INSIDE_STATS_ACCELERATION">Acceleration</small>  
+                                <div class="progress bg-secondary">
+                                <div id="accelerationBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                                </div>
+                            </div>
+                            <div class="col-4"> 
+                                <small class="text-muted" data-locale="INSIDE_STATS_BRAKES">Brakes</small>                                 
+                                <div class="progress bg-secondary">
+                                <div id="brakesBar2" class="progress-bar" role="progressbar" style="width:0%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-4">
+                                <small class="text-muted" data-locale="INSIDE_STATS_BODY">Body health</small>                                
+                                <div class="progress bg-secondary">
+                                <div id="bodyBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <small class="text-muted" data-locale="INSIDE_STATS_ENGINE">Engine health</small>  
+                                <div class="progress bg-secondary">
+                                <div id="engineHealthBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                                </div>
+                            </div>
+                            <div class="col-4"> 
+                                <small class="text-muted" data-locale="INSIDE_STATS_FUEL">Fuel level</small>                                 
+                                <div class="progress bg-secondary">
+                                <div id="fuelBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <small class="text-muted" data-locale="INSIDE_STATS_SPEED">Speed</small> 
+                        <div class="progress bg-secondary">
+                            <div id="speedBar" class="progress-bar" role="progressbar" style="width:0%"></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <small class="text-muted" data-locale="INSIDE_STATS_SCORE">Overall score</small> 
+                        <span id="overall" class="w-100 badge badge-info" style="vertical-align:top!important"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mb-1"/>
+        <div class="row">
+            <div id="bigAlert" class="alert alert-danger w-100" role="alert">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="sg-animation-wrapper">
+        <div id="smallGarage" class="container-fluid p-2 json-menu">
+            <div id="loadingContainer" class="w-100 text-center">
+                <div id="smallGarageLoading" class="spinner-border text-light text-center" role="status">
+                    <span data-locale="LOADING" class="sr-only">Loading...</span>
+                </div>
+            </div>
+            <div id="smallGarageContainer" class="list-group shadow"></div>
+        </div>
+    </div>
+
+    <div id="impoundGarage" class="container-fluid p-2 json-menu">
+    </div>
+    <div id="impoundSelection" class="container-fluid p-2 json-menu">    
+    </div>
+    <div id="garageAlert" class="w-25 text-center p-3 text-light flashdanger shadow">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-exclamation-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+          </svg> <span id="gaMessage"></span>
+    </div>
+    <div id="transferModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+            <div class="modal-header border-0">
+                <h5 data-locale="TRANSFER_TITLE" id="cd-garage-transfer-title" class="modal-title">Transfer vehicle</h5>
+                <button type="button" class="text-light close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body border-0">
+                <div class="form-group">
+                    <label data-locale="TRANSFER_TO" id="cd-garage-transfer-to" for="exampleInputEmail1">Transfer to</label>
+                    <input type="number" min="0" max="1000" class="form-control" id="playerid">
+                    <small data-locale="TRANSFER_DESCRIPTION" id="cd-garage-transfer-description "class="form-text text-muted">Input the ID of the person you are transfering this vehicle to.</small>
+                  </div>
+                <hr>
+            </div>
+            <div class="modal-footer border-0">
+                <div class="messageContainer w-100">
+                    <div class="alert alert-primary" role="alert"></div>
+                </div>
+                <div class="modalLoading w-100 text-center">
+                    <div class="spinner-border text-light" role="status">
+                        <span data-locale="LOADING" class="sr-only">Loading...</span>
+                      </div>
+                </div>
+                <button data-locale="TRANSFER_CLOSE" id="closeTransfer" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button data-locale="TRANSFER_SUBMIT" id="submitTransfer" type="button" class="btn btn-success">Submit</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="financeModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+            <div class="modal-header border-0">
+                <h5 data-locale="FINANCE_TITLE" class="modal-title">Finance vehicle</h5>
+                <button type="button" class="text-light close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body border-0">
+                <div class="form-group">
+                    <p><strong data-locale="FINANCE_LEFT" id="cd-garage-finance-left">Finance left: </strong><small id="financeLeft"></small><svg class="float-right"width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cash-stack" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 3H1a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1h-1z"/>
+                        <path fill-rule="evenodd" d="M15 5H1v8h14V5zM1 4a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H1z"/>
+                        <path d="M13 5a2 2 0 0 0 2 2V5h-2zM3 5a2 2 0 0 1-2 2V5h2zm10 8a2 2 0 0 1 2-2v2h-2zM3 13a2 2 0 0 0-2-2v2h2zm7-4a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+                      </svg></p>
+                      <hr>
+                    <p><strong data-locale="FINANCE_LAST_PAYMENT" id="cd-garage-last-payment">Last payment: </strong><small id="lastFinance"></small><svg class="float-right" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-check-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-5.146-5.146a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                      </svg> </p>
+                      <hr>
+                    <p><strong data-locale="FINANCE_NEXT_PAYMENT" id="cd-garage-next-payment">Next payment: </strong><small id="nextFinance"></small><svg class="float-right" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                      </svg></p>
+                      <hr>
+                </div>
+                <div class="form-group">
+                    <label data-locale="FINANCE_ACTION" id="cd-garage-finance-action" for="financeMoney">Pay</label>
+                    <input type="number" min="1" class="form-control" id="financeMoney">
+                    <small data-locale="FINANCE_DESCRIPTION" id="cd-garage-finance-description" class="form-text text-muted">Input the amount of money you wish to put towards vehicle finance.</small>
+                  </div>
+                <hr>
+            </div>
+            <div class="modal-footer border-0">
+                <div class="messageContainer w-100">
+                    <div class="alert alert-primary" role="alert"></div>
+                </div>
+                <div class="modalLoading w-100 text-center">
+                    <div class="spinner-border text-light" role="status">
+                        <span data-locale="LOADING" class="sr-only">Loading...</span>
+                      </div>
+                </div>
+                <button data-locale="FINANCE_CLOSE" id="closeFinance" type="button" class="footer-button btn btn-secondary" data-dismiss="modal">Close</button>
+                <button data-locale="FINANCE_SUBMIT" id="submitFinance" type="button" class="footer-button btn btn-success">Submit</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="../configs/locales_ui.js"></script>
+    <script src="js/vehicles.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/popper-1.16.1.js"></script>
+    <script src="js/bootstrap-4.5.2.js"></script>
+    <script src="js/JSONmenu.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
